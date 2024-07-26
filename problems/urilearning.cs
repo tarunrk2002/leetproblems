@@ -16,7 +16,7 @@ namespace problems
                 Host = "google.com",
                 Port = 443,
                 Path = "api/data",
-                Query = "id=10&value=test"
+                //Query = "id=10&value=test"
             };
 
             // Get the constructed URI
