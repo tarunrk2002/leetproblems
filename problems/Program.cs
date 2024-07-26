@@ -47,8 +47,13 @@ namespace problems
 
             //addlist addlist = new addlist();
             //addlist.list_sum();
-            longsubstring lss = new longsubstring();
-            lss.sub();
+
+
+            //longsubstring lss = new longsubstring();
+            //lss.sub();
+
+            urilearning urilearning = new urilearning();
+            urilearning.u_r_i();
         }
 
 

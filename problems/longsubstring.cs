@@ -27,6 +27,8 @@ namespace problems
                 Console.WriteLine(s);
 
             }
+
+
             list.Append("ehjhj");
 
             Console.WriteLine("\n");
@@ -63,12 +65,6 @@ namespace problems
                 Console.WriteLine(s);
 
             }
-
-
-
-
-
-
 
         }
     }
