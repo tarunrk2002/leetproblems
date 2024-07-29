@@ -49,11 +49,23 @@ namespace problems
             //addlist.list_sum();
 
 
-            //longsubstring lss = new longsubstring();
-            //lss.sub();
+            longsubstring lss = new longsubstring();
+            //lss.A
 
-            urilearning urilearning = new urilearning();
-            urilearning.u_r_i();
+            //urilearning urilearning = new urilearning();
+            //urilearning.u_r_i();
+
+            stu stu1 = new stu("new",10);
+            int a = stu1.Age;
+            stu1.Age = 2;
+            int aa = stu1.Age;
+
+            Console.WriteLine(a);
+            Console.WriteLine(aa);
+
+
+
+
         }
 
 

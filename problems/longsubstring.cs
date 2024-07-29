@@ -1,14 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace problems
 {
+    
     internal class longsubstring
     {
-        public void sub()
+        private string a;
+
+
+        public string A 
+        
+        { get; set; }
+
+        
+
+        public void sub(string a)
         {
             List<string> list = new List<string>();
             list.Add("d");
@@ -27,6 +39,8 @@ namespace problems
                 Console.WriteLine(s);
 
             }
+
+           
 
 
             list.Append("ehjhj");
